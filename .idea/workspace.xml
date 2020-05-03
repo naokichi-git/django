@@ -19,24 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3ce978-8936-442c-b8f4-d8628a3373c9" name="Default Changelist" comment="successful">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" />
+    <list default="true" id="cf3ce978-8936-442c-b8f4-d8628a3373c9" name="Default Changelist" comment="0503_test">
+      <change afterPath="$PROJECT_DIR$/memo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +68,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Django tests.Test: ">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="Test: mysite" type="DjangoTestsConfigurationType" temporary="true">
       <module name="mysite" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mysite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,12 +161,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polls" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myapp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polls/models.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myapp/views.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.views" />
         <item itemvalue="Django tests.Test: " />
         <item itemvalue="Django tests.Test: mysite" />
-        <item itemvalue="Python.manage" />
         <item itemvalue="Python.admin" />
-        <item itemvalue="Python.models" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +225,7 @@
       <workItem from="1586960687728" duration="1441000" />
       <workItem from="1588022964679" duration="735000" />
       <workItem from="1588164149148" duration="3108000" />
+      <workItem from="1588515344582" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="fail">
       <created>1586960633285</created>
@@ -253,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586961621974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0503_test">
+      <created>1588515638098</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588515638098</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,17 +270,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fail" />
     <MESSAGE value="successful" />
-    <option name="LAST_COMMIT_MESSAGE" value="successful" />
+    <MESSAGE value="0503_test" />
+    <option name="LAST_COMMIT_MESSAGE" value="0503_test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588164193713">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1588164193713" />
-    <state x="481" y="263" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586960990213">
+    <state x="481" y="263" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588515980838">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="481" y="263" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.920@0.0.1440.920" timestamp="1586960990213" />
+    <state x="481" y="263" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.920@0.0.1440.920" timestamp="1588515980838" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1586960684931">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -298,42 +294,46 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="472" y="166" key="Github.UntrackedFilesDialog/0.0.1440.920@0.0.1440.920" timestamp="1586872289337" />
-    <state width="1397" height="241" key="GridCell.Tab.0.bottom" timestamp="1588166741126">
+    <state width="1382" height="238" key="GridCell.Tab.0.bottom" timestamp="1588517088949">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="241" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1588166741126" />
-    <state width="1397" height="241" key="GridCell.Tab.0.center" timestamp="1588166741125">
+    <state width="1382" height="238" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1588517088949" />
+    <state width="1382" height="238" key="GridCell.Tab.0.center" timestamp="1588517088948">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="241" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1588166741125" />
-    <state width="1397" height="241" key="GridCell.Tab.0.left" timestamp="1588166741125">
+    <state width="1382" height="238" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1588517088948" />
+    <state width="1382" height="238" key="GridCell.Tab.0.left" timestamp="1588517088948">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="241" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1588166741125" />
-    <state width="1397" height="241" key="GridCell.Tab.0.right" timestamp="1588166741126">
+    <state width="1382" height="238" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1588517088948" />
+    <state width="1382" height="238" key="GridCell.Tab.0.right" timestamp="1588517088948">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="241" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1588166741126" />
-    <state width="675" height="300" key="GridCell.Tab.1.bottom" timestamp="1588166219653">
+    <state width="1382" height="238" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1588517088948" />
+    <state width="1382" height="297" key="GridCell.Tab.1.bottom" timestamp="1588517083541">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="675" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1588166219653" />
-    <state width="675" height="300" key="GridCell.Tab.1.center" timestamp="1588166219652">
+    <state width="1382" height="297" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1588517083541" />
+    <state width="1382" height="297" key="GridCell.Tab.1.center" timestamp="1588517083541">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="675" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1588166219652" />
-    <state width="675" height="300" key="GridCell.Tab.1.left" timestamp="1588166219652">
+    <state width="1382" height="297" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1588517083541" />
+    <state width="1382" height="297" key="GridCell.Tab.1.left" timestamp="1588517083541">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="675" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1588166219652" />
-    <state width="675" height="300" key="GridCell.Tab.1.right" timestamp="1588166219652">
+    <state width="1382" height="297" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1588517083541" />
+    <state width="1382" height="297" key="GridCell.Tab.1.right" timestamp="1588517083541">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="675" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1588166219652" />
+    <state width="1382" height="297" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1588517083541" />
     <state x="222" y="106" key="SettingsEditor" timestamp="1586958578813">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="106" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1586958578813" />
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1588515650148">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1588515650147" />
     <state x="93" y="93" width="1255" height="735" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586959965024">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -348,7 +348,8 @@
     <SUITE FILE_PATH="coverage/mysite$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1588166736658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/mysite$settings.coverage" NAME="settings Coverage Results" MODIFIED="1586961985221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
     <SUITE FILE_PATH="coverage/mysite$models.coverage" NAME="models Coverage Results" MODIFIED="1586962036947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
-    <SUITE FILE_PATH="coverage/mysite$manage.coverage" NAME="manage Coverage Results" MODIFIED="1588166219626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mysite$views.coverage" NAME="views Coverage Results" MODIFIED="1588516073055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp" />
+    <SUITE FILE_PATH="coverage/mysite$manage.coverage" NAME="manage Coverage Results" MODIFIED="1588517088937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mysite$Test__mysite.coverage" NAME="Test: mysite Coverage Results" MODIFIED="1588166471497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/mysite$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1586961979406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
   </component>
